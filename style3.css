@@ -1,0 +1,64 @@
+/*Style signup.html*/
+
+
+/*backgroung χρωμα*/
+body {
+	background-image: url('signupsc.jpg');
+}
+
+/*κεντραρισμα φορμας στη μεση της σελίδας*/
+.container {
+	width: 300px;
+    margin: 150px auto;
+	background-color: rgb(254, 254, 254);
+	
+}
+
+/*Sign up form κεντραρισμα*/
+.container h2 {
+	text-align: center;
+}
+
+/*περιγραμμα φορμας*/
+form {
+	border: 2px solid #ccc;
+  	padding: 25px;
+  	border-radius: 10px;
+}
+
+/*τροποποιηση κελιων*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	width: 90%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+
+/*κουμπι*/
+button {
+  	width: 100%;
+  	padding: 10px;
+  	background-color: #007bff;
+  	color: #fff;
+  	border: none;
+  	border-radius: 5px;
+  	cursor: pointer;
+}
+
+
+
+label,
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+button:hover {
+  background-color: blue;
+}
+

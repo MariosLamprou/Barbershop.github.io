@@ -1,0 +1,72 @@
+/*Style signin.html*/
+
+/*χρωμα για το background, θα βαλουμε φωτογραφια*/
+body {
+	background-image: url('signinsc.png');
+}
+
+/*προσαρμοζουμε τη φορμα συνδεσης με τις καταλληλες διαστασεις και το καταλληλο σημειο*/
+.container {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+    height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(254, 254, 254);
+}
+
+/*Το Sign in τοποθετειται στο κεντρο της φορμας*/
+.container h2 {
+	text-align: center;
+}
+
+
+.container form {
+	display: flex;
+	flex-direction: column;
+}
+
+/*η φορμα που προκειται να συμπληρωθει*/
+.container form input[type="text"],
+.container form input[type="password"] {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/*κουμπι συνδεσης*/
+.container form button {
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/*κουμπι συνδεσης την ωρα που ακουμπαει το ποντικι*/
+.container form button:hover {
+	background-color: #0056b3;
+}
+
+
+/*για εμφανιση του error*/
+.notification {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f8d7da;
+	color: 721c24;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	z-index: 9999;
+}
